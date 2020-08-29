@@ -1,0 +1,66 @@
+/* Group: Andy,Diana,J.Macklin, J.Negron, Nicole  */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+}
+
+body{
+  background-image: url('../img/arena1.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 12px;
+  margin-left: 445px;
+  padding: 24px;
+  width: 50%;
+}
+
+.box{
+  background-color: white;
+  border: 1px solid black;
+  color: purple;
+  cursor: pointer;
+  font-size: 100px;
+  height: 25vh;
+  padding: 40px 20px;
+  text-align: center;
+  width: 200px;
+
+}
+
+.box:hover{
+  background: teal;
+}
+
+h1,
+h3, .clear, .result{
+  color: purple;
+  text-align: center;
+  width: 100%;
+}
+
+h1{
+  font-size: 3rem;
+  padding-top: 50px;
+  text-shadow: 5px 5px white;
+}
+h3{
+  font-size: 2rem;
+}
+.result {
+  font-size: 2rem;
+}
+
+button {
+  background-color: purple;
+  color: white;
+  font-size: 1.5rem;
+  height: 40px;
+  width: 90px;
+}
